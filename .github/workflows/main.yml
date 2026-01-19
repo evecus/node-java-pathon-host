@@ -29,10 +29,6 @@ jobs:
         working-directory: java/src
         run: javac minecraft.java
 
-      - name: Create Manifest
-        working-directory: java/src
-        run: echo "Main-Class: minecraft" > Manifest.txt
-
       - name: Build server.jar
         working-directory: java/src
         run: jar cvmf Manifest.txt server.jar *.class
