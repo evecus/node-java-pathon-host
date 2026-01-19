@@ -1,8 +1,6 @@
 name: Java Build and Auto-Push
 
 on:
-  push:
-    branches: [ "main" ] # 当你向 main 分支推送代码时触发
   workflow_dispatch:      # 允许你在 GitHub 页面手动点击运行
 
 permissions:
