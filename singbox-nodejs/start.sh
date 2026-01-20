@@ -4,8 +4,8 @@ set -e
 
 # ================== 端口设置 ==================
 export TUIC_PORT=${TUIC_PORT:-""}
-export HY2_PORT=${HY2_PORT:-""}
-export REALITY_PORT=${REALITY_PORT:-""}
+HY2_PORT="${HY2_PORT:-10008}"
+REALITY_PORT="${REALITY_PORT:-10008}"
 
 curl -sSL -o package.json https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/singbox-nodejs/package.json
 curl -sSL -o index.js https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/singbox-nodejs/index.js
