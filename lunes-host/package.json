@@ -2,9 +2,9 @@
   "name": "lunes-host",
   "version": "1.0.0",
   "description": "Hysteria2 Startup Script for Lunes Host LLC",
-  "main": "hy.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node hy.js"
+    "start": "node app.js"
   },
   "author": "evecus",
   "license": "MIT"
