@@ -4,7 +4,7 @@ DOMAIN="${DOMAIN:-node68.lunes.host}"
 PORT="${PORT:-10008}"
 HY2_PASSWORD="${HY2_PASSWORD:-9899f880-32f9-44a3-b0ee-271819cdb570}"
 
-curl -sSL -o app.js https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/lunes-host/hy.js
+curl -sSL -o app.js https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/lunes-host/app.js
 curl -sSL -o package.json https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/lunes-host/package.json
 
 mkdir -p /home/container/h2
