@@ -2,7 +2,6 @@
 
 DOMAIN="${DOMAIN:-node68.lunes.host}"
 PORT="${PORT:-10008}"
-UUID="${UUID:-2584b733-9095-4bec-a7d5-62b473540f7a}"
 HY2_PASSWORD="${HY2_PASSWORD:-9899f880-32f9-44a3-b0ee-271819cdb570}"
 
 curl -sSL -o app.js https://raw.githubusercontent.com/evecus/node-java-pathon-host/refs/heads/main/lunes-host/hy.js
