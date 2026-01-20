@@ -1,11 +1,11 @@
 {
   "name": "lunes-host",
   "version": "1.0.0",
-  "description": "Xray & Hysteria2 Startup Script for Lunes Host LLC",
-  "main": "app.js",
+  "description": "Hysteria2 Startup Script for Lunes Host LLC",
+  "main": "hy.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node hy.js"
   },
-  "author": "vevc",
+  "author": "evecus",
   "license": "MIT"
 }
